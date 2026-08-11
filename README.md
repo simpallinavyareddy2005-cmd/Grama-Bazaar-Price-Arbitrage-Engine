@@ -2,77 +2,91 @@
 
 ## 📌 Project Overview
 
-The **Grama Bazaar Price Arbitrage Engine** is a data analytics project designed to analyze agricultural commodity prices across different markets and locations.
+The **Grama Bazaar Price Arbitrage Engine** is a data analytics project designed to analyze agricultural market prices, commodity arrivals, transportation costs, market profitability, and regional price variations.
 
-The project helps identify **price differences, market opportunities, demand patterns, and potential arbitrage opportunities** by analyzing commodity prices, arrivals, market locations, and distance to markets.
+The project aims to identify potentially profitable market opportunities by comparing **market prices, transportation costs, commodity arrivals, and net profit** across different markets and states.
 
-The analysis demonstrates how data analytics and visualization can support **farmers, traders, and agricultural stakeholders** in making better market decisions.
+The solution combines data cleaning, data analysis, SQL, cloud technologies, and interactive dashboard visualization to transform agricultural market data into meaningful business insights.
 
 ---
 
 ## 🎯 Objectives
 
 - Analyze agricultural commodity prices across different markets.
-- Identify markets offering better prices for commodities.
-- Analyze the relationship between market distance and price.
-- Understand demand levels across different locations.
-- Identify potential price arbitrage opportunities.
-- Create an interactive dashboard for decision-making.
-- Present meaningful insights using data visualization.
+- Compare market-wise and commodity-wise prices.
+- Identify top profitable markets.
+- Analyze transportation costs across states.
+- Study commodity arrival patterns.
+- Analyze monthly price variations.
+- Compare commodity-level profitability.
+- Identify geographical profit patterns.
+- Build an interactive dashboard for decision-making.
+- Support data-driven agricultural market decisions.
 
 ---
 
 ## 📊 Key Features
 
-- 📍 Market and location analysis
-- 💰 Average price comparison
-- 📦 Commodity arrivals analysis
-- 📏 Distance-to-market analysis
-- 📈 Demand level analysis
-- 🔎 Market price comparison
-- 🌾 Commodity-wise analysis
+- 🌾 Agricultural commodity analysis
+- 💰 Net profit analysis
+- 🏪 Market-wise profitability analysis
+- 📈 Modal price analysis
+- 📦 Commodity arrival analysis
+- 🚚 Transportation cost analysis
+- 🗺️ State-wise analysis
+- 📅 Monthly price analysis
+- 🔎 Interactive filters
 - 📊 Interactive dashboard
-- 💡 Identification of potential arbitrage opportunities
+- 🗺️ National profit heatmap
 
 ---
 
 ## 🗂️ Dataset
 
-The dataset contains agricultural market information such as:
+The project uses agricultural market data containing information related to markets, commodities, prices, arrivals, transportation costs, and profitability.
 
-| Column | Description |
+### Important Data Fields
+
+| Field | Description |
 |---|---|
-| Area | Name of the market area |
-| Location | Market location |
+| Date | Date of market observation |
 | State | State where the market is located |
+| Market Center | Name of the market |
 | Commodity | Agricultural commodity |
-| Size | Market/production size |
-| Arrivals | Quantity arriving at the market |
-| Average_Price | Average commodity price |
-| Distance_to_Market | Distance from the source location to the market |
-| Demand_Level | Estimated demand level |
+| Modal Price | Market's modal commodity price |
+| Commodity Arrival | Quantity of commodity arriving at the market |
+| Transport Cost | Estimated transportation cost |
+| Net Profit | Potential net profit from the market |
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-### Data Processing
+### Data Cleaning & Preparation
+
 - Microsoft Excel
 - Power Query
 
 ### Data Analysis
+
 - SQL
 - Google Colab
 - BigQuery
 
 ### Machine Learning
+
 - BigQuery ML
 
 ### Data Visualization
+
 - Looker Studio
 
 ### Cloud Platform
-- Google Cloud Platform (GCP)
+
+- Google Cloud Platform
+<img width="1168" height="663" alt="grama Bazaar Price Arbitrage Engine Dashboard" src="https://github.com/user-attachments/assets/5fc47ab5-0a4e-495b-b236-2523e6737294" />
+
+  
 
 ---
 
@@ -87,111 +101,16 @@ Data Transformation
         ↓
 Exploratory Data Analysis
         ↓
-Price & Market Analysis
+Market Price Analysis
         ↓
-Demand & Distance Analysis
+Commodity Arrival Analysis
         ↓
-Arbitrage Opportunity Identification
+Transportation Cost Analysis
         ↓
-Looker Studio Dashboard
+Profitability Analysis
+        ↓
+Market Comparison
+        ↓
+Dashboard Development
         ↓
 Business Insights
-        ↓
-Looker Studio Dashboard
-        ↓
-Business Insights
-
------
-
-## 📊 Dashboard
-
-The project includes an interactive dashboard developed to analyze agricultural market prices, profitability, transportation costs, commodity arrivals, and market performance.
-
-### 🎯 Dashboard Overview
-
-The dashboard provides a consolidated view of market performance and helps identify potentially profitable markets based on price, transportation cost, and commodity-level analysis.
-
-### 📌 Key Performance Indicators
-
-The dashboard includes the following KPIs:
-
-- 💰 **Total Net Profit:** 7.25M
-- 💵 **Average Market Price:** 3.48K
-- 🏪 **Total Markets Covered:** 500
-- 🗺️ **Total States Covered:** 26
-- 🚚 **Average Transport Cost:** 10.05M
-
-### 🔎 Interactive Filters
-
-Users can filter the dashboard based on:
-
-- Date
-- State
-- Market Center
-- Commodity
-
-### 📈 Dashboard Visualizations
-
-#### 1. Top Profitable Markets
-
-Displays the markets generating the highest net profit and helps identify potentially profitable market locations.
-
-#### 2. Modal Price by Commodity
-
-Compares modal prices across different agricultural commodities.
-
-#### 3. Modal Price by Month
-
-Shows monthly variation in commodity modal prices and helps identify price patterns across the year.
-
-#### 4. Commodity Arrival Distribution
-
-Shows the distribution of commodity arrivals across different commodity categories.
-
-#### 5. Transport Cost by State
-
-Compares transportation costs across states and helps understand the cost involved in moving commodities between markets.
-
-#### 6. Year-wise Commodity Arrivals
-
-Visualizes commodity arrivals across different periods to understand arrival patterns.
-
-#### 7. Commodity Profitability Table
-
-Provides detailed information about:
-
-- Commodity
-- Net Profit
-- Average Modal Price
-- Average Transport Cost
-
-This allows users to compare commodity-level profitability.
-
-#### 8. National Profit Heatmap
-
-The geographical heatmap provides a visual representation of profit distribution across India and helps identify regions with higher potential profitability.
-
-### 🖼️ Dashboard Preview
-
-![Grama Bazaar Price Arbitrage Engine Dashboard](Dashboard/grama_bazaar_dashboard.jpeg)
-
-### 💡 Dashboard Insights
-
-The dashboard helps users:
-
-- Identify top profitable markets.
-- Compare commodity prices.
-- Analyze monthly price patterns.
-- Understand commodity arrival distribution.
-- Compare transportation costs across states.
-- Analyze commodity-level profitability.
-- Identify geographical profit patterns.
-- Evaluate potential market opportunities.
-
-### 🚜 Business Value
-
-The dashboard can support farmers, traders, and agricultural stakeholders by providing a consolidated view of market prices, transportation costs, arrivals, and profitability.
-
-By combining **market price and transportation cost information**, users can evaluate whether selling a commodity in an alternative market could provide a better potential return.
-
----
