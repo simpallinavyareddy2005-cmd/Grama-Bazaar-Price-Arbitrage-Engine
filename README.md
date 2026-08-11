@@ -101,6 +101,8 @@ Looker Studio Dashboard
         ↓
 Business Insights
 
+-----
+
 ## 📊 Dashboard
 
 The project includes an interactive dashboard developed to analyze agricultural market prices, profitability, transportation costs, commodity arrivals, and market performance.
