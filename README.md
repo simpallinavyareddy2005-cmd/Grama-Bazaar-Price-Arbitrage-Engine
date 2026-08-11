@@ -84,7 +84,11 @@ The project uses agricultural market data containing information related to mark
 ### Cloud Platform
 
 - Google Cloud Platform
-<img width="1168" height="663" alt="grama Bazaar Price Arbitrage Engine Dashboard" src="https://github.com/user-attachments/assets/5fc47ab5-0a4e-495b-b236-2523e6737294" />
+---
+
+## Dashboard
+
+- <img width="1168" height="663" alt="grama Bazaar Price Arbitrage Engine Dashboard" src="https://github.com/user-attachments/assets/5fc47ab5-0a4e-495b-b236-2523e6737294" />
 
   
 
